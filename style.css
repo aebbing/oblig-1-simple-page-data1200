@@ -1,0 +1,18 @@
+main {
+    text-align: center;
+    margin: 15%;
+}
+div {
+    margin: 40px 0px 40px;
+}
+dt {
+    font-weight: bold;
+}
+nav {
+    text-align: center;
+}
+nav li {
+    display: inline-block;
+    text-align: center;
+    padding: 5%;
+}

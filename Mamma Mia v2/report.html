@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Report </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&family=Yeseva+One&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1 id="logo-h1">Mamma Mia</h1>
+        <h2 id="logo-h2">- Italian Cuisine -</h2>
+        <nav>
+            <ul>
+                <li><a href="index.html">Back to project-page</li>
+                <li><a href="report.html">Report</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Report</h1>
+        <h2>Version 1</h2>
+        <p>
+            As the task was to create a simple web page for an imaginary costumer running a restaurant, and since it
+            wasn't quite clear from the assignment-text whether this web page was to contain the menu only or to act as
+            a
+            full-fledged website for a business, we opted for the latter just in case (hoping we didn’t get lost in
+            semantics on this one), which is why there is an "About"-section included. Moreover, since it is not unusual
+            for restaurants and cafes to have their opening hours and contact details on their “Welcome”-page, and since
+            it
+            was explicitly highlighted in the assignment that these should be easy to find, we decided to include this
+            both
+            in <code>&lt;main&gt;</code> as well as <code>&lt;footer&gt;</code> - in the latter too simply out of
+            convention, since a lot of users probably would expect to find it there as well.
+        </p>
+
+        <p>
+            To make it easier for users to navigate between the different sections of the web page, i.e. increase
+            accessibility, a simple navigation bar with anchor-links was included. The web page has been built in
+            such a way so that people can easily just use a keyboard to navigate it. Different kinds of headings
+            have been implemented to make it even easier to orient oneself on the page. A lot of the structural choices
+            that has been made should also be favourable with regard to SEO. In addition, in
+            <code>&lt;main&gt;</code> we chose dark-colored headings and text on a light-colored, slightly blurred
+            background to increase the contrast with the image behind, as it increases readability, e.g. for
+            visiually-impaired and/or
+            elderly people, while at the same time remaining visually pleasing. Big and not-too-heavily-stylised
+            fonts, as well as a slight spacing between the letters and the elements themselves in
+            <code>&lt;main&gt;</code>, were chosen for the same reasons.
+        </p>
+
+        <p>
+            The em-tag around the allergens was not used for its stylistic function, but for its semantic
+            one, since a screenreader will stress the text within it. This was seen as a good idea since
+            it’s safe to say that warning people of allergens in the dishes is very important.
+        </p>
+
+        <h2>Version 2</h2>
+        <p>
+            With the use of AChecker, we identified only one main problem and 28 potential problems. The main
+            problem and most of these potential problems were linked to the image link as it was not
+            working, which was to be expected considering that the file containing the image was not run
+            through the check. Other problems were related to our “fake links”, which refers to the links
+            that take the users to different sections of the web page, which is why we chose to ignore these
+            errors. However, the check also showed that we didn’t use an HTML-image alt-tag with an
+            image-tag. The reason for this would be that the image was linked to in the CSS-file. In theory,
+            this isn’t a very big problem since the background image doesn’t convey information of any
+            significant importance for the understanding of the content in this case. However, as there
+            might be screenreader users who would prefer to know what’s depicted in the background, so we’ve
+            chosen to include a <code>&lt;span&gt;</code>-tag with an aria-label containing the alt-text as an
+            alternative solution, as this is something a screenreader should be able to catch.
+        </p>
+
+        <p>
+            In addition, we changed the colors of the text in the header and footer from darker to lighter
+            colors in order to make it more readable. We also made it easier to use on different devices by
+            adding a viewport meta-tag. Links allowing the users to call the number or send an email to the
+            address listed on the page were also added for convenience.
+        </p>
+    </main>
+    <footer>
+        <ul>
+            <li>
+                <address>Address: Ingens gate 1, 1111 Ingensteds, Norge</address>
+            </li>
+            <li>Telephone: <a href="tel:+4712345678"></a>+4712345678</a></li>
+            <li>Email: <a href="mailto:mammamia@hereigoagain.com">mammamia@hereigoagain.com</a></li>
+        </ul>
+        <ul>
+            <li>Mon-Thur: 11.00-22.00</li>
+            <li>Fri-Sat: 10.00-23.00</li>
+            <li>Sun: 12.00-21.00</li>
+        </ul>
+    </footer>
+</body>
+
+</html>

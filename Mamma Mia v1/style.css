@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+main {
+    text-align: center;
+    margin-right: 20%;
+    margin-left: 20%;
+    padding: 4%;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.3rem; 
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+dd {
+    list-style-type: none;
+    margin-left: 0px;
+}
+header {
+    text-align: center;
+    background-color: rgb(22, 73, 22);
+    background-size: cover;
+    margin: 0 auto;
+    width: 100%;
+    margin-bottom: 5%;
+    margin-top: 0;
+}
+footer {
+    text-align: center;
+    background-color: rgb(22, 73, 22);
+    background-size: cover;
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 5%;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.2rem;
+}
+#contact-details-footer {
+    padding: 3%;
+    margin: 0;
+}
+#opening-hours-footer {
+    padding-bottom: 3%;
+    margin: 0;
+}
+h2 {
+    font-size: 2rem;
+    margin: 0%;
+}
+h3 {
+    font-size: 1.5rem;
+    margin: 0%;
+}
+#logo-h1 {
+    color: rgb(155, 34, 34);
+    font-size: 3.5rem;
+    padding: 3% 0% 0%;
+}
+#logo-h2 {
+    color: white;
+    font-size: 2rem;
+    padding: 0%;
+}
+div {
+    margin: 40px 0px 40px;
+}
+dt {
+    font-weight: bold;
+}
+dd {
+    padding-bottom: 0.5rem;
+}
+nav {
+    text-align: center;
+}
+nav li {
+    display: inline-block;
+    text-align: center;
+    padding: 3% 3% 3%;
+    list-style-type: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-decoration: none;
+}
+li>a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+}
+body {
+    background-image: url("pexels-vincent-rivaud-2233348.jpg"); /*Photo by Vincent Rivaud from Pexels. License: free to use, no attribution required. URL: https://www.pexels.com/photo/person-slicing-pizza-2233348/*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    letter-spacing: .05rem;
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3 {
+    font-family: 'Yeseva One', cursive;
+    padding: 0.3rem;
+    padding-top: 0.7rem;
+}
